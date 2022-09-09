@@ -27,16 +27,17 @@ int main(void)
 
 	while (ch <= '9')
 	{
-		if (ch == '9')
-		{
-			putchar(ch);
-			break;
-		}
 		putchar(ch);
-		putchar(',');
-		putchar(' ');
+
+		if (ch != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 		ch++;
 	}
+
+	putchar('\n');
 
 	return (0);
 
