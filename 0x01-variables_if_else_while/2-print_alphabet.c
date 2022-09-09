@@ -30,7 +30,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar(' ');
+	putchar('\n');
 	return (0);
 
 }
