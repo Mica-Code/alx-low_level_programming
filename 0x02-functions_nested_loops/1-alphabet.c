@@ -5,7 +5,7 @@
 /* betty style doc for function main goes there */
 
 /**
- *  *  *  * main - Entry point
+ *  *  *  * print_alphabet - a function that prints the alphabet, in lowercase
  *
  *   *
  *
@@ -29,13 +29,6 @@
  *
  *             *
  */
-
-int main(void)
-{
-	print_alphabet();
-	putchar('\n');
-	return (0);
-}
 
 void print_alphabet(void)
 {
