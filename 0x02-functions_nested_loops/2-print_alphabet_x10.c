@@ -43,7 +43,7 @@ void print_alphabet_x10(void)
 			putchar(ch);
 			ch++;
 		}
-		num ++;
-		putchar('\n');	
+		num++;
+		putchar('\n');
 	}
 }
