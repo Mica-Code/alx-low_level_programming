@@ -31,11 +31,16 @@
 
 int print_last_digit(int n)
 {
-	int ld = n % 10;
+	int pld;
 
-	if (ld < 0)
+	pld = (nld % 10);
+
+	if (pld < 0)
 	{
-		return (-1 * ld);
+		pld = (-1 * pld);
 	}
-	return (ld + '0');
+
+	_putchar(pld + '0');
+
+	return (pld);
 }
