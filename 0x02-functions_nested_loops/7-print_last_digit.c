@@ -37,5 +37,5 @@ int print_last_digit(int n)
 	{
 		return (-1 * ld);
 	}
-	return (ld);
+	return (ld + '0');
 }
