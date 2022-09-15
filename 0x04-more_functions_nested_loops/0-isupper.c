@@ -4,7 +4,9 @@
 *
 * int _isupper - checks if a letter is uppercase
 *
-* @c - input for the function
+* @c: Input
+* Return: 1 if c is uppercase
+* 0 if otherwise
 *
 */
 
