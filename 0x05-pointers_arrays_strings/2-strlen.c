@@ -3,13 +3,19 @@
 /**
  * _strlen - retruns the length of a string
  *
- * @s: first parameter to be passed
+ * @str: first parameter to be passed
  *
  * Return: integer
  */
 
 
-int _strlen(char *s)
+int _strlen(char *str)
 {
-	return (strlen(s));
+	int length = 0;
+
+	while (*(str + length) != '\0')
+	{
+		lenght++;
+	}
+	return (length);
 }
