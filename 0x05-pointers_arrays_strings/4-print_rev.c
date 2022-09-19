@@ -1,18 +1,25 @@
-#include "main.h"
-/**
-* print_rev - prints a string in reverse
-*@s: string to reverse
-*Return: Nothing
-*/
-void print_rev(char *s)
-{
-	int l;
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-	l = 0;
-	while (*(s + l) != '\0')
-		l++;
-	l--;
-	for (; l >= 0; l--)
-		_putchar(*(s + l));
-	_putchar('\n');
+/**
+* main - generates random passwords for 101-crackme
+* Return: Always 0
+*/
+
+int main (void)
+{
+	int sum = 0;
+	char c;
+
+	srand(time(NULL));
+	while (sum <= 2645)
+	{
+		c = rand() % 128;
+		sum += c;
+		putchar(c);
+	}
+
+	putchar(2772 - sum);
+	return (0);
 }
